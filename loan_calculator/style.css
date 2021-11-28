@@ -1,0 +1,16 @@
+body {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 400px;
+}
+.hidden {
+  display: none;
+}
+.spinner-border {
+  width: 150px;
+  height: 150px;
+}
