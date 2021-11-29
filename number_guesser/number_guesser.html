@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script src="number_guesser.js" defer></script>
+    <title>Number Guesser</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-4 mvy-4">Number Guesser</h1>
+      <div id="game">
+        <p>
+          Guess a number between <span class="min-number">1</span> and
+          <span class="max-number">10</span>
+        </p>
+        <form class="form-inline">
+          <input
+            class="form-control"
+            type="number"
+            placeholder="Enter your giess..."
+            id="guess-input"
+          />
+          <input
+            type="submit"
+            value="Submit"
+            class="btn btn-outline-primary px-4"
+            id="guess-btn"
+          />
+        </form>
+        <p class="message mt-3"></p>
+      </div>
+    </div>
+  </body>
+</html>
