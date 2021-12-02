@@ -15,7 +15,7 @@ class UI {
       weather.location.name + ', ' + weather.location.region;
     this.desc.textContent = weather.current.condition.text;
     this.string.innerHTML = weather.current.temp_c + ' <sup>o</sup>C';
-    this.icon.setAttribute('src', weather.current.condition.icon);
+    this.icon.setAttribute('src', 'https:' + weather.current.condition.icon);
     this.humidity.textContent = `Realitive Humidity: ${weather.current.humidity}`;
     this.cloud.textContent = `Cloud: ${weather.current.cloud} %`;
     this.feelsLike.innerHTML =
