@@ -1,7 +1,7 @@
 class GitHub {
   constructor() {
     this.client_id = '20ec80ee4528c175518d';
-    this.client_secret = '4b929ff2f4439420b513c9312248f76a799dad69';
+    this.client_secret = 'f5a12d0a0e2f0d4ab58200cab5521f99a319d8fa';
 
     // It's neccessary if we make more then 100 requests in an hour
     //  We got this key and secret from github register API
